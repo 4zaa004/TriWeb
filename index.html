@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>John Doe's Portfolio</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <img src="profilepic.png" alt="John Doe" id="profile-pic">
+        <p>Software Engineering student with a passion for developing innovative solutions.</p>
+    </section>
+    <section id="projects">
+        <div class="project-card" onmouseover="hoverProject(this)" onmouseout="unhoverProject(this)">
+            <img src="projectCard1.png" alt="Project 1">
+            <h3>Project Title 1</h3>
+            <p>Short description about the project.</p>
+        </div>
+        <div class="project-card" onmouseover="hoverProject(this)" onmouseout="unhoverProject(this)">
+            <img src="projectCard2.png" alt="Project 2">
+            <h3>Project Title 2</h3>
+            <p>Short description about the project.</p>
+        </div>
+        <!-- Add more project cards as needed -->
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: johndoe@example.com</p>
+    </section>
+    <footer>
+        <p>© 2023 John Doe</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
